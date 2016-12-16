@@ -1,0 +1,34 @@
+{
+  "name": "desktop-browser-sample-nodejs",
+  "version": "1.0.0",
+  "description": "Macaca desktop browser sample for Node.js",
+  "keywords": [
+    "macaca",
+    "sample"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macaca-sample/desktop-browser-sample-nodejs.git"
+  },
+  "dependencies": {
+    "macaca-utils": "^0.1.8"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "macaca-chrome": "^1.0.5",
+    "macaca-cli": "^1.1.0",
+    "macaca-electron": "^1.1.4",
+    "macaca-simple-reportor": "*",
+    "macaca-wd": "^1.0.12",
+    "pre-commit": "1.1.1",
+    "xml2map": "^1.0.2"
+  },
+  "scripts": {
+    "test": "make test-pc",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "license": "MIT"
+}
